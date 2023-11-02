@@ -193,9 +193,18 @@ font-family: 'Varela Round', sans-serif;
     .social_icon {
       height: 3em;
       margin: auto;
+      margin-top: 2em;
+      z-index: 9999;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .icon {
+      height: 3em;
+      margin: auto;
       padding-left: 3em;
       padding-right: 3em;
-      margin-top: 2em;
     }
 
     .smaller {
@@ -291,16 +300,16 @@ font-family: 'Varela Round', sans-serif;
           discovery and self-love that only comes in solitude.
         </p>
 
-        <div class="text-center">
-          <a href="https://www.instagram.com/iandepriest">
-            <img class="social_icon" src="assets/Instagram_Glyph_Gradient.png" />
+        <div class="text-center social_icon">
+          <a href="https://www.instagram.com/iandepriest" class="" alt="Ian's Instagram">
+            <img class="icon" src="assets/Instagram_Glyph_Gradient.png" />
           </a>
 
           <a href="https://twitter.com/ianldp">
-            <img class="social_icon smaller" src="assets/logo-white.png" />
+            <img class="icon smaller" src="assets/logo-white.png" />
           </a>
           <a href="https://www.tiktok.com/@iandepriest">
-            <img class="social_icon" src="assets/TikTok_Icon_Black_Square.png" />
+            <img class="icon" src="assets/TikTok_Icon_Black_Square.png" />
           </a>
         </div>
       </div>
