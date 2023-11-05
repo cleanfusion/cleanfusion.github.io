@@ -391,18 +391,20 @@ font-family: 'Varela Round', sans-serif;
         <h2 class="text-center">Contact Ian</h2>
         <div class="row">
           <div class="col-md-6 mx-auto">
-            <form method="post" action="https://forms.un-static.com/forms/35a2931e78c979a615a93a72223d95de25ee2100">
+            <form method="POST" action="https://forms.un-static.com/forms/35a2931e78c979a615a93a72223d95de25ee2100">
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Your Name" required />
+                <input type="text" class="form-control" id="name" placeholder="Your Name" name="vistorName" required />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" id="email" placeholder="Your Email" name="visitorEmail"
+                  required />
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" name="visitorMessage"
+                  required></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
